@@ -23,6 +23,63 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+		<!-- Pin transitive dependency com.fasterxml.jackson.core:jackson-databind to address security vulnerabilities -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.18.9</version>
+		</dependency>
+		<!-- Pin transitive dependency com.fasterxml.jackson.core:jackson-core to address security vulnerabilities -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.15.0</version>
+		</dependency>
+		<!-- Pin transitive dependency ch.qos.logback:logback-classic to address security vulnerabilities -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.13</version>
+		</dependency>
+		<!-- Pin transitive dependency ch.qos.logback:logback-core to address security vulnerabilities -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.5.25</version>
+		</dependency>
+		<!-- Pin transitive dependency org.hibernate.validator:hibernate-validator to address security vulnerabilities -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.2.0.Final</version>
+		</dependency>
+		<!-- Pin transitive dependency org.springframework:spring-beans to address security vulnerabilities -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>5.2.23.RELEASE</version>
+		</dependency>
+		<!-- Pin transitive dependency org.springframework:spring-webmvc to address security vulnerabilities -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.3.42</version>
+		</dependency>
+		<!-- Pin transitive dependency org.apache.tomcat.embed:tomcat-embed-core to address security vulnerabilities -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>9.0.118</version>
+		</dependency>
+		<!-- Pin transitive dependency org.apache.tomcat.embed:tomcat-embed-websocket to address security vulnerabilities -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-websocket</artifactId>
+			<version>9.0.86</version>
+		</dependency>
+
+
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -33,14 +90,14 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.2.5</version>
+			<version>42.7.11</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
 		<dependency>
 		    <groupId>org.jsoup</groupId>
 		    <artifactId>jsoup</artifactId>
-		    <version>1.8.3</version>
+		    <version>1.23.1</version>
 		</dependency>
 
 		<dependency>
